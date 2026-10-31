@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>푼푼이 개인정보처리방침</title>
+<!-- 앱 이름: 푼푼이(2026-10-31 확정). 게시 전에 시행일을 확인한다. -->
+<style>
+  :root { --bg:#f7f7f5; --card:#fff; --ink:#1b1d1c; --ink2:#55595a; --line:#e3e5e3; --accent:#2f6f5e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121615; --card:#1b201f; --ink:#ecefee; --ink2:#a9afad; --line:#2c3331; --accent:#6cc9ad; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system, "Segoe UI", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 24px; margin: 8px 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  p, li { color: var(--ink); }
+  .meta { color: var(--ink2); font-size: 14px; margin: 0 0 16px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 12px 0; }
+  .box strong { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--bg); color: var(--ink2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>푼푼이 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 10월 31일 · 문의: <a href="mailto:ktalkie2026@gmail.com">ktalkie2026@gmail.com</a></p>
+
+  <div class="box">
+    <p><strong>한 줄 요약</strong> · 푼푼이는 이용자의 개인정보를 수집하지 않습니다. 입력한 가계 기록은 이용자의 기기 안에만 저장되고, 개발자나 어느 서버로도 전송되지 않습니다.</p>
+  </div>
+
+  <p>푼푼이(이하 "앱")은 로그인과 서버가 없는 개인 가계부 앱입니다. 이 방침은 앱이 어떤 정보를 어디에 저장하고 어떻게 다루는지 설명합니다.</p>
+
+  <h2>1. 개인정보의 수집·이용</h2>
+  <p>앱 개발자는 앱을 통해 이용자의 개인정보를 <b>수집하거나 보관하거나 처리하지 않습니다.</b> 회원가입, 로그인, 계정 연동이 없고 이용자를 식별하는 정보를 받지 않습니다. 그래서 개인정보의 제3자 제공, 처리 위탁, 국외 이전도 없습니다.</p>
+
+  <h2>2. 앱 안에 저장되는 정보</h2>
+  <p>다음 정보는 이용자가 직접 입력하며, <b>이용자의 기기 안(앱 전용 저장소)에만</b> 저장됩니다.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>정보</th><th>설명</th></tr></thead>
+    <tbody>
+      <tr><td>거래 내역</td><td>금액, 날짜, 종류(수입·지출·자산이동), 카테고리, 메모</td></tr>
+      <tr><td>계좌·카드 정보</td><td>이용자가 정한 계좌 별명과 카드 별명, 처음 잔액. 카드는 구분을 위해 <b>앞 4자리(선택 입력)</b>를 저장할 수 있습니다</td></tr>
+      <tr><td>예산·설정</td><td>카테고리 예산, 월 시작일, 화면 모드(주간·야간)</td></tr>
+      <tr><td>입력 중인 내용</td><td>저장하지 않고 닫은 입력 화면의 임시 내용(저장하거나 입력 화면을 닫으면 지워집니다)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><b>계좌번호와 카드 전체 번호는 입력받지 않습니다.</b> 별명과 카드 앞 4자리만으로는 계좌나 카드를 사용할 수 없습니다. 메모에도 계좌번호, 카드 번호, 비밀번호 같은 민감한 정보를 적지 않기를 권합니다.</p>
+
+  <h2>3. 외부 전송과 앱 권한</h2>
+  <ul>
+    <li>앱은 입력한 정보를 인터넷으로 보내지 않습니다. 광고, 분석, 충돌 수집 등 외부 서비스(SDK)를 사용하지 않습니다.</li>
+    <li>앱 구성 요소(웹 화면 기반 엔진)가 요구하는 기본 설정 때문에 Android의 "인터넷" 권한이 선언되어 있으나, 앱은 이 권한으로 이용자의 기록을 전송하지 않습니다.</li>
+    <li>위치, 연락처, 사진, 카메라, 마이크, 문자 등 다른 권한을 요청하지 않습니다.</li>
+  </ul>
+
+  <h2>4. 백업과 내보내기</h2>
+  <ul>
+    <li><b>백업 파일·CSV·엑셀 내보내기</b>는 이용자가 직접 실행합니다. 만들어진 파일은 이용자가 공유 화면에서 고른 앱이나 저장 위치로만 전달되며, 앱 개발자는 그 파일을 받지 않습니다. 받는 앱이나 서비스에서의 처리는 해당 서비스의 방침을 따릅니다.</li>
+    <li><b>앱 안의 자동 보관 사본</b>: 실수로 기록을 지웠을 때 되돌릴 수 있도록, 앱이 하루에 한 번 최근 7일치 사본과 "복원 직전"·"삭제 직전" 사본을 앱 전용 저장소에 보관합니다. 이 사본도 기기 밖으로 나가지 않으며, 지운 기록이 사본에는 최대 7일 정도 남아 있을 수 있습니다.</li>
+    <li>앱은 Android의 클라우드 자동 백업(구글 계정 백업)을 사용하지 않도록 설정되어 있습니다. 따라서 새 기기로 옮기거나 앱을 다시 설치하면 기록이 자동으로 돌아오지 않습니다. 기록을 옮기려면 백업 파일을 직접 내보내고 새 기기에서 복원하세요.</li>
+  </ul>
+
+  <h2>5. 보관 기간과 삭제</h2>
+  <ul>
+    <li>기록은 이용자가 지우거나 앱을 삭제할 때까지 기기에 남습니다.</li>
+    <li>개별 거래는 내역에서 삭제할 수 있고, 계좌나 카드는 설정의 "카테고리·계좌 편집"에서 삭제할 수 있습니다(그 계좌의 거래도 함께 지워집니다).</li>
+    <li><b>앱을 삭제하면</b> 앱 안의 기록과 자동 보관 사본이 모두 삭제됩니다. 이용자가 따로 내보낸 백업 파일은 이용자가 저장한 위치에 남아 있으므로 직접 삭제해야 합니다.</li>
+  </ul>
+
+  <h2>6. 안전성 확보</h2>
+  <ul>
+    <li>기록은 기기의 앱 전용 저장소에 저장되며, 앱이 별도로 암호화하지는 않습니다. 기기의 화면 잠금(PIN, 지문 등)을 설정해 기기 자체를 보호하세요.</li>
+    <li>기기를 분실하거나 다른 사람에게 넘길 때는 앱을 삭제하거나 기기를 초기화하세요.</li>
+  </ul>
+
+  <h2>7. 만 18세 미만</h2>
+  <p>앱은 성인을 대상으로 만든 가계부이며, 개발자는 연령과 관계없이 어떤 이용자의 개인정보도 수집하지 않습니다.</p>
+
+  <h2>8. 방침의 변경</h2>
+  <p>앱에 로그인, 결제, 광고, 분석 도구, 서버 연동처럼 정보 처리 방식이 달라지는 기능을 추가하면, 그 기능이 적용되기 전에 이 방침을 고쳐 이 페이지에 게시하고 시행일을 갱신합니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>이 방침이나 앱의 정보 처리에 대한 문의는 <a href="mailto:ktalkie2026@gmail.com">ktalkie2026@gmail.com</a>으로 보내 주세요.</p>
+  <p class="meta">공고·시행일: 2026년 10월 31일</p>
+</main>
+</body>
+</html>
